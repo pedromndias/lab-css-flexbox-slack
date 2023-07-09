@@ -27,7 +27,9 @@ ul {
     text-align: center;
     padding-left: 0;
 }
-
+.image2 {
+    display: none;
+}
 
 /* NAVBAR */
 
@@ -264,4 +266,140 @@ footer ul {
 
 footer small {
     color: #454245;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: block;
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .first-image2 {
+        position: relative;
+        left: -150px;
+    }
+    .second-image2 {
+        position: relative;
+        right: -140px;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    
+    header h1 {
+        font-size: 3.5em;
+        text-align: left;
+        padding-left: 20px;
+    }
+    header p {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #main-first-p {
+        margin-bottom: 10px;
+    }
+    .main-companies-logos img {
+        height: 30px;
+    }
+
+    #section-teams-buttons {
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+    }
+    #percentages-ul {
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    #status-ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #logos-list {
+        width: 50%;
+    }
+
+    #try-free-link {
+        background-color: white;
+        color: #540B51;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    
+    
+}
+
+
+@media (min-width: 1024px) {
+    nav ul {
+        display: flex;
+        gap: 50px;
+    }
+    .nav-first-div {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .nav-second-div {
+        padding-right: 30px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    #humburger-btn {
+        display: none;
+    }
+
+    #bring-team-section,
+    #choose-how-section,
+    #section-move-faster {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    #bring-team-section img,
+    #choose-how-section img,
+    #section-move-faster img {
+        position: static;
+        width: 100%;
+    }
+    #bring-team-section div,
+    #choose-how-section div,
+    #section-move-faster div {
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #section-welcome div {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #header-image-container {
+        width: 70%;
+    }
+
+}
+
+
+@media (min-width: 1440px) {
+    #header-buttons {
+        display: flex;
+    }
 }
