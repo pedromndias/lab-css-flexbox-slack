@@ -18,8 +18,8 @@
 
 <body>
   <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div class="nav-first-div">
+      <img id="slack-logo" src="./images/slack-logo.png" alt="Slack logo" />
 
       <ul>
         <li>
@@ -37,7 +37,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="nav-second-div">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -61,12 +61,12 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span id="slack-free-span">Slack is free to try</span> for as long as you'd like.</p>
 
       <div>
-        <button>Sign up with email</button>
+        <button id="email-button">Sign up with email</button>
 
-        <button>
+        <button id="google-button">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -75,15 +75,15 @@
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img id="hero-product-img" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
+    <section id="main-first-section">
+      <p id="main-first-p">Trusted by companies all over the world</p>
 
-      <div>
+      <div class="main-companies-logos last-p-main">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -94,7 +94,7 @@
 
     </section>
 
-    <section>
+    <section id="bring-team-section">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
@@ -108,14 +108,14 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels</span>
+          <span>Learn more about channels</span> →
         </a>
       </div>
     </section>
 
-    <section>
+    <section id="choose-how-section">
       <div>
-        <h2>Choose how you want to work</h2>
+        <h2 class="first-el-main">Choose how you want to work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
           send
@@ -123,7 +123,7 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <span>Learn more about flexible communication</span> →
         </a>
       </div>
 
@@ -132,7 +132,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="section-move-faster">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
@@ -144,25 +144,25 @@
           tools like Workflow Builder, you can automate away routine tasks.
         </p>
 
-        <a href="#">
+        <a class="last-p-main" href="#">
           <span>Learn more about the Slack platform</span>
         </a>
       </div>
     </section>
 
 
-    <section>
+    <section id="section-teams">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
       <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+        <button id="meet-slack-btn">Meet Slack for enterprise</button>
+        <button id="talk-sales-btn">Talk to sales</button>
       </div>
 
       <ul>
         <li>
-          <p><span>85%</span></p>
+          <p><span class="main-p-span">85%</span></p>
           <p>
             of users say Slack has improved communication
             <sup>*</sup>
@@ -170,7 +170,7 @@
         </li>
 
         <li>
-          <p><span>86%</span></p>
+          <p><span class="main-p-span">86%</span></p>
           <p>
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -178,8 +178,8 @@
         </li>
 
         <li>
-          <p><span>88%</span></p>
-          <p>
+          <p><span class="main-p-span">88%</span></p>
+          <p class="last-p-main">
             feel more connected to their teams*
             <sup>*</sup>
           </p>
@@ -187,18 +187,18 @@
       </ul>
     </section>
 
-    <section>
+    <section id="section-welcome">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button id="try-free-btn">Try for free</button>
+      <button id="talk-sales-btn-2">Talk to sales</button>
     </section>
 
   </main>
 
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" />
-    <div>
+    <div class="footer-first-div">
       <ul>
         <li>WHY SLACK?</li>
         <li>Slack vs. Email</li>
@@ -235,7 +235,7 @@
     </div>
 
 
-    <ul>
+    <ul id="status-ul">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
@@ -247,7 +247,7 @@
 
     <hr>
 
-    <ul>
+    <ul id="logos-list">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
